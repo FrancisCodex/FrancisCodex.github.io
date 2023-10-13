@@ -15,10 +15,13 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="css/bootstrap5.3css/bootstrap.min.css">
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/custom.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+        <!-- Preloader -->
+        <div class="preloader"></div>
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
@@ -59,11 +62,10 @@
         <!-- About-->
         <section id="about" class="about">
             <div class="container">
-      
               <div class="section-title">
-                <h2>I'm Francis Adrian Altesing</h2>
+                <h2 class="animate-character">About Me</h2>
                 <br>
-                <h3>About Me</h3>
+                <h3>I'm Francis Adrian Altesing</h3>
                 <p>I am a 22yr old IT Student with a passion for programming and a drive to create innovative solutions. My journey in the world of technology 
                     began with an insatiable curiosity and a desire to make meaningful impact.
                 </p>
@@ -113,7 +115,7 @@
         <div class="container">
   
           <div class="section-title">
-            <h2>Skills</h2>
+            <h2 class="animate-character">Skills</h2>
             <p>Over the last three years, my journey through the world of programming has been a thrilling and enlightening experience. My skills encompass web development, where I've become adept at crafting dynamic and user-friendly websites using HTML, CSS, and JavaScript.  </p>
           </div>
   
@@ -216,7 +218,7 @@
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Projects</h2>
+                    <h2 class="section-heading text-uppercase animate-character">Projects</h2>
                     <h3 class="section-subheading text-muted">These are the projects that im currently creating and finished projects</h3>
                 </div>
                 <div class="row">
@@ -230,7 +232,7 @@
                                 <img class="img-fluid portfolio-img" src="assets/img/projects/Boardroom.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">BoardRoom</div>
+                                <div class="portfolio-caption-heading">Board Room</div>
                                 <div class="portfolio-caption-subheading text-muted">Boarding House Locator Web App</div>
                                 <div class="text-muted portfolio-caption-text"><p>Ongoing</p></div>
                             </div>
@@ -291,7 +293,7 @@
         <section class="page-section" id="services">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
+                    <h2 class="section-heading text-uppercase animate-character">Services</h2>
                     <h3 class="section-subheading text-muted">Services that I can provide using the skills I gathered</h3>
                 </div>
                 <div class="row text-center">
@@ -326,16 +328,9 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Me</h2>
+                    <h2 class="section-heading text-uppercase animate-character">Contact Me</h2>
                     <h3 class="section-subheading text-muted">Send me an email so we can discuss your project needs</h3>
                 </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
                 <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
@@ -414,7 +409,7 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">BoardRoom</h2>
+                                    <h2 class="text-uppercase fs-1">Board Room</h2>
                                     <p class="item-intro text-muted">A web app that helps student to locate Boarding Houses</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/projects/Boardroom.jpg" alt="..." />
                                     <p>The BoardRoom is a user-friendly platform that helps students find accommodation near their universities. The students can use BoardRoom to browse and select a wide range of houses that are tailored to their preferences and budget. BoardRoom provides students with detailed information, photos, and user reviews to help students find their perfect accommodations during their school year. BoardRoom aims to simplify the way students find their temporary accommodation during their school year.
@@ -446,7 +441,7 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Cosmos Cafe</h2>
+                                    <h2 class="text-uppercase fs-1">Cosmos Cafe</h2>
                                     <p class="item-intro text-muted">An E-Commerce website that sells Coffee</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/projects/cafe.jpg" alt="..." />
                                     <p>In my portfolio project, 'Cosmos Cafe,' I've harnessed the capabilities of Next.js, Node.js, and PostgreSQL to create a dynamic and secure eCommerce platform. This project showcases my proficiency in full-stack web development, with Next.js providing a lightning-fast and intuitive user experience. Node.js is at the heart of the backend, facilitating seamless transactions and order processing. I've also implemented PostgreSQL to manage and store data, ensuring a robust and scalable database structure. 'Cosmos Cafe' is a testament to my ability to build a sophisticated eCommerce solution that caters to coffee enthusiasts while utilizing the latest web technologies for a seamless and secure user experience.</p>
@@ -477,7 +472,7 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">IWatchFilms</h2>
+                                    <h2 class="text-uppercase fs-1">IWatchFilms</h2>
                                     <p class="item-intro text-muted">An Movie Review Website</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/projects/IWatchFilms.png" alt="..." />
                                     <p>In my portfolio project 'IWatchFilms,' I've leveraged the power of Next.js and Strapi to create a seamless movie review platform. This project showcases my skills in web development, with a strong emphasis on authentication and security. The frontend is built using Next.js, providing a fast and responsive user interface, while Strapi, an open-source headless CMS, ensures secure and user-friendly authentication. Additionally, I've integrated MovieDatabase APIs to fetch and display movie information, enhancing the user experience. 'IWatchFilms' exemplifies my ability to combine these technologies to build a robust and engaging web application for movie enthusiasts.</p>
@@ -508,7 +503,7 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Student Manager</h2>
+                                    <h2 class="text-uppercase fs-1">Student Manager</h2>
                                     <p class="item-intro text-muted">Student Management System</p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/projects/StudentManager.png" alt="..." />
                                     <p>In my portfolio, I'm excited to present the 'Student Manager System,' a project that exemplifies my expertise in distributed systems and database integration. This system is built using Java RMI (Remote Method Invocation) to enable seamless communication between different parts of the application, ensuring a responsive and efficient student management solution. MySQL, a robust relational database management system, is employed to store and manage student data, providing a secure and organized repository for information. The 'Student Manager System' showcases my ability to design and develop complex, yet user-friendly, systems that streamline student information management and highlight my proficiency in Java RMI and database integration</p>
@@ -531,7 +526,7 @@
         </div>
 
         <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <script src="js/scrolleffect.js"></script>
@@ -539,13 +534,7 @@
         <script src="./assets/scripts/typed.js/typed.umd.js"></script>
         <script src="js/typed-animation.js"></script>
         <script src="js/text-animation.js"></script>
-        
 
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- Resources used in the website are free to use such as Pexels, Flaticons, RepoSVG -->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>

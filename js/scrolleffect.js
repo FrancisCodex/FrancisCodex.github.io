@@ -1,11 +1,14 @@
-window.addEventListener('scroll', function() {
-    var navbar = document.querySelector('#mainNav');
-    var image = document.querySelector('.fade-in');
-  
-    if (window.scrollY > navbar.offsetTop) {
-      image.classList.add('active');
-    } else {
-      image.classList.remove('active');
-    }
-  });
-  
+document.addEventListener("DOMContentLoaded", function() {
+  // Get the preloader element
+  const preloader = document.querySelector(".preloader");
+
+  // Add the loader-hidden class to the preloader element
+  // setTimeout(() => {
+  //   preloader.classList.add("preloader-hidden");
+  // }, 3000);
+  preloader.classList.add("preloader-hidden");
+
+  // preloader.addEventListener("transitionend", () => {
+  //   preloader.removeChild("preloader");
+  // })
+});
