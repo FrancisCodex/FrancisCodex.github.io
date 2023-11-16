@@ -229,7 +229,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid portfolio-img" src="assets/img/projects/Boardroom.jpg" alt="..." />
+                                <img class="img-fluid portfolio-img" src="assets/img/projects/Boardroom.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Board Room</div>
@@ -245,7 +245,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid portfolio-img" src="assets/img/projects/cafe.jpg" alt="..." />
+                                <img class="img-fluid portfolio-img" src="assets/img/projects/CosmosCafe.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Cosmos Cafe</div>
@@ -325,62 +325,41 @@
             </div>
         </section>
         <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase animate-character">Contact Me</h2>
-                    <h3 class="section-subheading text-muted">Send me an email so we can discuss your project needs</h3>
+<section class="page-section" id="contact">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase animate-character">Contact Me</h2>
+            <h3 class="section-subheading text-muted">Send me an email so we can discuss your project needs</h3>
+        </div>
+        <form id="contactForm" action="https://formspree.io/francisadrian.altesing@gmail.com" method="POST">
+            <div class="row align-items-stretch mb-5">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <!-- Name input-->
+                        <input class="form-control" id="name" name="name" type="text" placeholder="Your Name *" required />
+                    </div>
+                    <div class="form-group">
+                        <!-- Email address input-->
+                        <input class="form-control" id="email" name="email" type="email" placeholder="Your Email *" required />
+                    </div>
+                    <div class="form-group mb-md-0">
+                        <!-- Phone number input-->
+                        <input class="form-control" id="phone" name="phone" type="tel" placeholder="Your Phone" />
+                    </div>
                 </div>
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                        </div>
+                <div class="col-md-6">
+                    <div class="form-group form-group-textarea mb-md-0">
+                        <!-- Message input-->
+                        <textarea class="form-control" id="message" name="message" placeholder="Your Message *" required></textarea>
                     </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                    <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
-                </form>
+                </div>
             </div>
-        </section>
+            <!-- Submit Button-->
+            <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button></div>
+        </form>
+    </div>
+</section>
+
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
@@ -390,6 +369,7 @@
                         <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/Fr4nz2K" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/francisaltesing72" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/francis-adrian-altesing-b67a97257/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/FrancisCodex" aria-label="LinkedIn"><i class="fab fa-github"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-end">
                         <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
@@ -411,7 +391,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase fs-1">Board Room</h2>
                                     <p class="item-intro text-muted">A web app that helps student to locate Boarding Houses</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/projects/Boardroom.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/projects/Boardroom2.png" alt="..." />
                                     <p>The BoardRoom is a user-friendly platform that helps students find accommodation near their universities. The students can use BoardRoom to browse and select a wide range of houses that are tailored to their preferences and budget. BoardRoom provides students with detailed information, photos, and user reviews to help students find their perfect accommodations during their school year. BoardRoom aims to simplify the way students find their temporary accommodation during their school year.
                                     </p>
                                     <ul class="list-inline">
@@ -443,7 +423,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase fs-1">Cosmos Cafe</h2>
                                     <p class="item-intro text-muted">An E-Commerce website that sells Coffee</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/projects/cafe.jpg" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/projects/CosmosCafe.png" alt="..." />
                                     <p>In my portfolio project, 'Cosmos Cafe,' I've harnessed the capabilities of Next.js, Node.js, and PostgreSQL to create a dynamic and secure eCommerce platform. This project showcases my proficiency in full-stack web development, with Next.js providing a lightning-fast and intuitive user experience. Node.js is at the heart of the backend, facilitating seamless transactions and order processing. I've also implemented PostgreSQL to manage and store data, ensuring a robust and scalable database structure. 'Cosmos Cafe' is a testament to my ability to build a sophisticated eCommerce solution that caters to coffee enthusiasts while utilizing the latest web technologies for a seamless and secure user experience.</p>
                                     <ul class="list-inline">
                                         <li>
